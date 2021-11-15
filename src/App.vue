@@ -1,7 +1,5 @@
 <template>
-  <img class="mx-auto" alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="VueCLI + Vue3 + Tailwind jit"/>
-  <img class="mx-auto my-8" alt="powered-by" src="./assets/powered-by-vitawind-bright.png">
+  <HelloWorld />
 </template>
 
 <script>
