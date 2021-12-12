@@ -26,8 +26,11 @@
               <li class="block px-4 py-1 text-red-500 transition duration-500 ease-in-out md:p-2 lg:px-4 font-fredoka-one hover:text-blue-500 hover:translate-x-1" href="#" v-scroll-to="'#skill'">
                 Skill
               </li>
-              <li class="block px-4 py-1 text-red-500 md:p-2 lg:px-4 hover:text-blue-500" href="#" v-scroll-to="'#info'">
-                Info
+              <li class="block px-4 py-1 text-red-500 md:p-2 lg:px-4 hover:text-blue-500" href="#" v-scroll-to="'#Project'">
+                Project
+              </li>
+              <li class="block px-4 py-1 text-red-500 md:p-2 lg:px-4 hover:text-blue-500" href="#" v-scroll-to="'#Experience'">
+                Experience
               </li>
               <li class="block px-4 py-1 text-red-500 md:p-2 lg:px-4 hover:text-blue-500" href="#" v-scroll-to="'#contact'">
                 Contact me
@@ -56,8 +59,11 @@
         <Education />
       </div>
     </div>
-    <div id="info">
-      <Info></Info>
+    <div id="Project">
+      <Project />
+    </div>
+    <div id="Experience">
+      <Experience />
     </div>
     <footer class="w-full py-8 bg-white dark:bg-gray-800" id="contact">
       <div class="max-w-screen-xl px-4 mx-auto">
@@ -125,13 +131,15 @@
 
 
 <script>
-import Info from "../components/Info.vue";
+import Project from "./Project.vue";
 import Education from "../components/Education.vue";
+import Experience from "../components/Experience.vue";
 export default {
   name: "HelloWorld",
   components: {
-    Info,
+    Project,
     Education,
+    Experience,
   },
   data() {
     return {
