@@ -1,56 +1,67 @@
 
 <template>
-  <div class="container flex flex-col px-6 mx-auto mt-20 bg-white sm:px-12 sm:flex-row">
-    <div class="container flex flex-col-reverse mx-auto ml-8">
-      <div class="relative flex pt-10 pb-20 sm:items-center md:w-2/3">
-        <div class="absolute inset-0 flex items-center justify-center w-6 h-full">
-          <div class="w-1 h-full bg-gray-200 pointer-events-none"></div>
-        </div>
-        <div class="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mt-10 text-sm font-medium text-white bg-indigo-500 rounded-full sm:mt-0 title-font">
-          1
-        </div>
-        <div class="flex flex-col items-start flex-grow pl-6 md:pl-8 sm:items-center sm:flex-row">
-          <div class="inline-flex items-center justify-center flex-shrink-0 w-24 h-24 text-indigo-500 bg-indigo-100 rounded-full ">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
-              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-            </svg>
+  <div class="container flex flex-col-reverse px-6 mx-auto mt-20 bg-white sm:px-12 sm:flex-row">
+    <div class="container flex flex-col-reverse pr-4 mx-auto ml-4">
+      <section class="text-gray-600 body-font">
+        <p class="text-xl font-bold leading-relaxed text-center">網際威信股份有限公司 前端工程師</p>
+        <p class="italic font-light leading-relaxed text-center">2021/08~現今</p>
+        <div class="px-5 py-16 mx-auto " style="margin-top:-4%">
+          <div class="flex flex-col items-center pb-10 mx-auto mb-10 border-b border-gray-200 sm:flex-row">
+            <div class="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-indigo-500 bg-indigo-100 sm:w-32 sm:h-32 sm:mr-10">
+              <img src="../../src/assets/pic-1.jpeg" class="rounded-full" />
+            </div>
+            <div class="flex-grow mt-6 text-center sm:text-left sm:mt-0">
+              <h2 class="mb-2 text-lg font-medium text-gray-900 title-font">中國信託行動企業家-APP</h2>
+              <span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#Angular.js</span>
+              <span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#HTML</span>
+              <span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#CSS</span>
+              <span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#RWD</span>
+              <div class="mt-4 ">
+                <p class="text-base leading-relaxed text-gray-400 iphoneX:text-left">-使用<span class="text-gray-900">Angular.js、TypeScript</span>提供企業用戶進行外幣兌換交易</p>
+                <p class="text-base leading-relaxed text-gray-400 iphoneX:text-left">-使用Angular套件<span class="text-gray-900">html2canvas</span>將PDF進行切版並預覽</p>
+                <p class="text-base leading-relaxed text-gray-400 iphoneX:text-left">-使用<span class="text-gray-900">chart.js</span>製作匯率趨勢圖並客製化漸層樣式</p>
+                <p class="text-base leading-relaxed text-gray-400 iphoneX:text-left">-<span class="text-gray-900">IOS、Andriod</span> 包版</p>
+                <p class="text-base leading-relaxed iphoneX:text-left">-製作Angular元件作為共用</p>
+              </div>
+            </div>
           </div>
-          <div class="flex-grow mt-6 sm:pl-6 sm:mt-0">
-            <h2 class="mb-1 text-xl font-medium text-gray-900 title-font">
-              大學
-            </h2>
-            <p class="leading-relaxed">
-              中原大學 資訊管理學系 CYCU Information
-            </p>
+          <div class="flex flex-col items-center pb-10 mx-auto mb-10 border-b border-gray-200 sm:flex-row">
+            <div class="flex-grow mt-6 text-center sm:text-left sm:mt-0">
+              <h2 class="mb-2 text-lg font-medium text-gray-900 title-font">富邦香港企業網銀</h2>
+              <h2 class="mb-2 text-lg font-medium text-gray-900 title-font">台北富邦企業網銀</h2>
+              <span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#javaScript</span>
+              <span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#HTML</span>
+              <span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#XML</span>
+              <span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#Bootstrap</span>
+              <span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#CSS</span>
+              <div class="mt-4">
+                <p class="text-base leading-relaxed iphoneX:text-left">-將前端程式碼進行優化、調整進而符合各瀏覽器</p>
+                <p class="text-base leading-relaxed iphoneX:text-left">-使用Figma設計富邦香港轉數快交易設定收款人、線上表單申請畫面</p>
+              </div>
+            </div>
+            <div class="inline-flex items-center justify-center flex-shrink-0 order-first w-20 h-20 text-indigo-500 bg-indigo-100 rounded-full sm:w-32 sm:order-none sm:h-32 sm:ml-10">
+              <img src="../../src/assets/images-removebg-previeww.png" class="rounded-full " />
+            </div>
+          </div>
+          <div class="flex flex-col items-center mx-auto sm:flex-row">
+            <div class="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-indigo-500 bg-indigo-100 sm:w-32 sm:h-32 sm:mr-10">
+              <img src="../../src/assets/下載.png" class="rounded-full" />
+            </div>
+            <div class="flex-grow mt-6 text-center sm:text-left sm:mt-0">
+              <h2 class="mb-2 text-lg font-medium text-gray-900 title-font">上海銀行後台管理系統</h2>
+              <p class="text-base leading-relaxed">-在此專案獨立負責前端工作，並與另一位後端夥伴一同開發</p>
+              <p class="text-base leading-relaxed">-開發後台管理系統包含報表下載、人員管理、查詢、新增與修改</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="relative flex pb-20 sm:items-center md:w-2/3">
-        <div class="absolute inset-0 flex items-center justify-center w-6 h-full">
-          <div class="w-1 h-full bg-gray-200 pointer-events-none"></div>
-        </div>
-        <div class="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mt-10 text-sm font-medium text-white bg-indigo-500 rounded-full sm:mt-0 title-font">
-          2
-        </div>
-        <div class="flex flex-col items-start flex-grow pl-6 md:pl-8 sm:items-center sm:flex-row">
-          <div class="inline-flex items-center justify-center flex-shrink-0 w-24 h-24 text-indigo-500 bg-indigo-100 rounded-full ">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
-              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-            </svg>
-          </div>
-          <div class="flex-grow mt-6 sm:pl-6 sm:mt-0">
-            <h2 class="mb-1 text-xl font-medium text-gray-900 title-font">
-              大學
-            </h2>
-            <p class="leading-relaxed">中原大學 資訊管理學系</p>
-          </div>
-        </div>
-      </div>
+      </section>
     </div>
     <div class="flex flex-col items-start mt-8 sm:w-2/5 sm:mt-0">
-      <h1 class="mb-4 text-3xl leading-none lg:text-4xl">
-        <strong class="text-gray-200 text-7xl">Experience</strong>
+      <h1 class="mb-4 text-3xl leading-none lg:text-4xl title-top ml-[0.5rem]" style="margin-top:22%;z-index:2">
+        <strong class="text-transparent text-8xl bg-clip-text bg-gradient-to-r from-red-300 via-pink-400 via-purple-400 to-blue-400">Experience</strong>
       </h1>
+      <span class="w-8 h-8 mr-4 bg-blue-500 rounded-full" style="margin-top:-9%"></span>
+
     </div>
   </div>
 </template>

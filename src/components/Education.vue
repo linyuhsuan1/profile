@@ -1,13 +1,13 @@
 
 <template>
   <div class="container flex flex-col px-6 mx-auto mt-20 bg-white sm:px-12 sm:flex-row">
-    <div class="flex flex-col items-start mt-8 sm:w-2/5 sm:mt-0">
+    <!-- <div class="flex flex-col items-start mt-8 sm:w-2/5 sm:mt-0">
       <h1 class="mb-4 text-3xl leading-none lg:text-4xl">
         <strong class="text-gray-200 text-7xl">Education</strong>
       </h1>
     </div>
-    <div class="container flex flex-col mx-auto ml-8">
-      <div class="relative flex pt-10 pb-20 sm:items-center md:w-2/3">
+    <div class="container flex flex-col mx-auto ml-8"> -->
+    <!-- <div class="relative flex pt-10 pb-20 sm:items-center md:w-2/3">
         <div class="absolute inset-0 flex items-center justify-center w-6 h-full">
           <div class="w-1 h-full bg-gray-200 pointer-events-none"></div>
         </div>
@@ -50,9 +50,50 @@
             <p class="leading-relaxed">中原大學 資訊管理學系</p>
           </div>
         </div>
+      </div> -->
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col w-full mb-20 text-center">
+          <h1 class="mb-4 text-3xl leading-none lg:text-4xl ">
+            <strong class="text-transparent text-8xl bg-clip-text bg-gradient-to-r from-red-300 via-pink-400 via-purple-400 to-blue-400">Competition</strong>
+          </h1>
+        </div>
+        <div class="flex flex-wrap -m-4">
+          <div class="p-4 lg:w-1/3 sm:w-1/2">
+            <div class="relative flex">
+              <img alt="gallery" class="absolute inset-0 object-cover object-center w-full h-full" src="https://dummyimage.com/600x360">
+              <div class="relative z-10 w-full px-8 py-10 bg-white border-4 border-gray-200 opacity-0 hover:opacity-100">
+                <h2 class="mb-1 text-sm font-medium tracking-widest text-indigo-500 title-font">THE SUBTITLE</h2>
+                <h1 class="mb-3 text-lg font-medium text-gray-900 title-font">Shooting Stars</h1>
+                <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 lg:w-1/3 sm:w-1/2">
+            <div class="relative flex">
+              <img alt="gallery" class="absolute inset-0 object-cover object-center w-full h-full" src="https://dummyimage.com/601x361">
+              <div class="relative z-10 w-full px-8 py-10 bg-white border-4 border-gray-200 opacity-0 hover:opacity-100">
+                <h2 class="mb-1 text-sm font-medium tracking-widest text-indigo-500 title-font">THE SUBTITLE</h2>
+                <h1 class="mb-3 text-lg font-medium text-gray-900 title-font">The Catalyzer</h1>
+                <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 lg:w-1/3 sm:w-1/2">
+            <div class="relative flex">
+              <img alt="gallery" class="absolute inset-0 object-cover object-center w-full h-full" src="https://dummyimage.com/603x363">
+              <div class="relative z-10 w-full px-8 py-10 bg-white border-4 border-gray-200 opacity-0 hover:opacity-100">
+                <h2 class="mb-1 text-sm font-medium tracking-widest text-indigo-500 title-font">THE SUBTITLE</h2>
+                <h1 class="mb-3 text-lg font-medium text-gray-900 title-font">The 400 Blows</h1>
+                <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   </div>
+  <!-- </div> -->
 </template>
 <script>
 export default {

@@ -4,7 +4,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;400&display=swap" rel="stylesheet" />
 
   <div class="bg-white">
+
     <main class="z-50 bg-white font-montserrat">
+
       <nav class="bg-white font-montserrat">
         <div class="container flex flex-wrap items-center p-4 mx-auto md:flex-no-wrap">
           <div class="mr-4 md:mr-8">
@@ -24,7 +26,7 @@
           <div v-bind:class="{ hidden: !showMenu, flex: showMenu }" class="w-full md:w-auto md:flex-grow md:flex md:items-center">
             <ul class="flex flex-col pt-4 mt-4 -mx-4 text-lg border-t md:flex-row md:items-center md:mx-0 md:ml-auto md:mt-0 md:pt-0 md:border-0">
               <li class="block px-4 py-1 text-red-500 transition duration-500 ease-in-out md:p-2 lg:px-4 font-fredoka-one hover:text-blue-500 hover:translate-x-1" href="#" v-scroll-to="'#skill'">
-                Skill
+                Education
               </li>
               <li class="block px-4 py-1 text-red-500 md:p-2 lg:px-4 hover:text-blue-500" href="#" v-scroll-to="'#Project'">
                 Project
@@ -68,16 +70,6 @@
     <footer class="w-full py-8 bg-white dark:bg-gray-800" id="contact">
       <div class="max-w-screen-xl px-4 mx-auto">
         <ul class="flex flex-wrap justify-between max-w-screen-md mx-auto text-lg font-light ">
-          <li class="my-2">
-            <a class="text-gray-200 transition-colors duration-200 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" href="#">
-              FAQ
-            </a>
-          </li>
-          <li class="my-2">
-            <a class="text-gray-400 transition-colors duration-200 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" href="#">
-              Configuration
-            </a>
-          </li>
           <li class="my-2">
             <a class="text-gray-400 transition-colors duration-200 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" href="#">
               Github

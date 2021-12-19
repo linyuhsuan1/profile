@@ -1,10 +1,11 @@
 
 <template>
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-  <div class="container flex flex-col px-6 mx-auto mt-20 sm:px-12 sm:flex-row">
+  <div class="container flex flex-col px-2 mx-auto mt-20 sm:px-6 sm:flex-row">
     <div class="flex flex-col items-start mt-8 sm:w-2/5 sm:mt-0">
-      <h1 class="mb-4 text-3xl leading-none lg:text-4xl">
-        <strong class="text-gray-200 text-7xl">Project</strong>
+      <span class="w-8 h-8 mr-4 bg-blue-500 rounded-full"></span>
+      <h1 class="mb-4 text-3xl leading-none lg:text-4xl title-top ml-[0.5rem]">
+        <strong class="text-transparent text-8xl bg-clip-text bg-gradient-to-r from-red-300 via-pink-400 via-purple-400 to-blue-400">Project</strong>
       </h1>
     </div>
     <div class="container flex flex-col w-full h-screen mx-auto ml-8 swiper sm:h-[100]">
