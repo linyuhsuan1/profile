@@ -12,15 +12,16 @@
       <swiper :navigation="true" class="swiper-container bg-blue">
         <swiper-slide v-for="(item,index) in slideContent" :key="index">
           <div class="w-5/6 p-4 mb-6">
-            <div class="h-64 overflow-hidden rounded-lg">
+            <div class="overflow-hidden rounded-lg ">
               <img class="object-cover object-center w-full h-full" :src="item.imgUrl">
             </div>
             <div :id="`title-${index}`">
               <h2 class="mt-5 text-xl font-medium text-gray-900 title-font">{{item.title}}</h2>
-              <p class="mt-2 text-base leading-relaxed">-運用React Router、React hook週期</p>
-              <p class="mt-2 text-base leading-relaxed">-使用useMemo、useContext、useCallback</p>
-              <p class="mt-2 text-base leading-relaxed">Redux</p>
-              <a class="inline-flex items-center mt-3 text-indigo-500">Github
+              <p class="mt-2 text-base leading-relaxed">{{item.text_1}}</p>
+              <p class="mt-2 text-base leading-relaxed">{{item.text_2}}</p>
+              <p class="mt-2 text-base leading-relaxed">{{item.text_3}}</p>
+              <p class="mt-2 text-base leading-relaxed">{{item.text_4}}</p>
+              <a :href="item.link" class="inline-flex items-center mt-3 text-indigo-500">Github
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
@@ -54,19 +55,27 @@ export default {
       someLocalProperty: [],
       slideContent: {
         0: {
-          imgUrl:
-            "https://images.unsplash.com/photo-1586053015795-0e7dc4c44d12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+          imgUrl: require("../../src/assets/project-vue-1.png"),
+          link: "",
           title: "React.js",
+          text_1: "- 運用 React.js Hook",
+          text_2: "- 使用 Tailwind.css UI Library",
+          text_3: "- 使用 useState、useMemo、useCallback 做資料處理",
         },
         1: {
-          imgUrl:
-            "https://images.unsplash.com/photo-1519643381401-22c77e60520e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80",
-          title: "Vue.js",
+          imgUrl: require("../../src/assets/project-vue-1.png"),
+          link: "https://github.com/linyuhsuan/vuefinal",
+          title: "Vue.js-La'quisine",
+          text_1: "- 使用 VeeValidate 表單驗證",
+          text_2: "- 使用 Vue-carousel 輪播特效",
+          text_3: "- VueRouter",
+          text_4: "- Veux 達到元件同步更新資料",
         },
         2: {
-          imgUrl:
-            "https://images.unsplash.com/photo-1556909190-eccf4a8bf97a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+          imgUrl: require("../../src/assets/project-vue-1.png"),
+          link: "",
           title: "大學專題-BuyChaser",
+          text_1: "現今盛行的代購直播,讓人人都可以是代購者概念去做發想",
         },
       },
     };
