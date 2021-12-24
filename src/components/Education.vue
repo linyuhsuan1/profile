@@ -5,7 +5,7 @@
       <h1 class="mb-4 text-3xl leading-none lg:text-4xl">
         <strong class="text-gray-200 text-7xl">Education</strong>
       </h1>
-    </div>
+    </div>  
     <div class="container flex flex-col mx-auto ml-8"> -->
     <!-- <div class="relative flex pt-10 pb-20 sm:items-center md:w-2/3">
         <div class="absolute inset-0 flex items-center justify-center w-6 h-full">
