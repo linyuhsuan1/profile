@@ -8,6 +8,7 @@
         <strong class="text-transparent text-8xl bg-clip-text bg-gradient-to-r from-red-300 via-pink-400 via-purple-400 to-blue-400">Project</strong>
       </h1>
     </div>
+    
     <div class="container flex flex-col w-full h-screen mx-auto ml-8 swiper sm:h-[100]">
       <swiper :navigation="true" class="swiper-container bg-blue">
         <swiper-slide v-for="(item,index) in slideContent" :key="index">
