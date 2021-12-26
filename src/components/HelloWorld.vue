@@ -23,7 +23,7 @@
               </svg>
             </button>
           </div>
-          <div v-bind:class="{ hidden: !showMenu, flex: showMenu }" class="justify-center w-full md:w-auto md:flex-grow md:flex md:items-center">
+          <div v-bind:class="{ hidden: !showMenu, flex: showMenu }" class="w-full md:w-auto md:flex-grow md:flex md:items-center">
             <ul class="flex flex-col pt-4 mt-4 -mx-4 text-lg md:flex-row md:items-center md:mx-0 md:ml-auto md:mt-0 md:pt-0 md:border-0">
               <li class="block px-4 py-1 text-gray-600 md:p-2 lg:px-4 hover:text-blue-500" href="#" v-scroll-to="'#skill'">
                 Skill
@@ -63,7 +63,7 @@
             </div>
           </div>
           <div class="sm:w-3/5">
-            <img src="../../src/assets/profile.jpg" class="bg-center bg-no-repeat bg-auto" style="border-radius:50px"/>
+            <img src="../../src/assets/profile.jpg" class="bg-center bg-no-repeat bg-auto w-[60%] ml-[18%] iphoneX:ml-[0%] iphoneX:w-auto" style="border-radius:20px"/>
           </div>
         </div>
       </div>
