@@ -12,6 +12,7 @@ module.exports = {
       xl: '1280px',
       iphoneX: { 'max': '500px' },
     },
+
     extend: {},
   },
   plugins: [],
