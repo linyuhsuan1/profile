@@ -42,9 +42,9 @@
         <div class="container flex flex-col-reverse items-center px-6 mx-auto text-center sm:px-12 sm:flex-row">
           <div class="flex flex-col items-center mt-8 sm:w-2/5 sm:mt-0">
             <h1 class="mb-4 text-4xl text-[#fb923c]">Shelly Lin - 林俞萱</h1>
-            <h1 class="mb-4 text-xl text-[#78716c] leading-none">Frond End Developer</h1>
-            <h1 class="mb-4 text-xl text-[#78716c] leading-none">Taiwan City, TW</h1>
-            <h1 class="mb-4 text-xl text-[#78716c] leading-none">shelly423@gmail.com</h1>
+            <h1 class="mb-4 text-xl text-[#78716c] leading-none inline-flex">Frontend Engineer</h1>
+            <h1 class="mb-4 text-xl text-[#78716c] leading-none inline-flex">Taiwan City, TW</h1>
+            <h1 class="mb-4 text-xl text-[#78716c] leading-none inline-flex">shelly423@gmail.com</h1>
             <div class="flex flex-row">
              <a href="#" class="text-[#78716c] transition-colors duration-200 hover:text-gray-800 ">
               <svg width="25" height="25" fill="currentColor" class="text-xl transition-colors duration-200 hover:text-gray-800 dark:hover:text-white" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">

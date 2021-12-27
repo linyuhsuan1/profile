@@ -21,7 +21,7 @@
               <p class="mt-2 text-base leading-relaxed text-gray-600">{{item.text_2}}</p>
               <p class="mt-2 text-base leading-relaxed text-gray-600">{{item.text_3}}</p>
               <p class="mt-2 text-base leading-relaxed text-gray-600">{{item.text_4}}</p>
-              <a :href="item.link" class="inline-flex items-center mt-3 text-indigo-500">Github
+              <a :href="item.link" target="_blank" class="inline-flex items-center mt-3 text-indigo-500">Github
                 <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg> -->
@@ -56,7 +56,7 @@ export default {
       slideContent: {
         0: {
           imgUrl: require("../../src/assets/project-vue-1.png"),
-          link: "",
+          link: "https://github.com/linyuhsuan1/react-web",
           title: "React.js",
           text_1: "- 運用 React.js Hook",
           text_2: "- 使用 Tailwind.css UI Library",
