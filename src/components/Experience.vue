@@ -20,8 +20,8 @@
                 <p class="text-base leading-relaxed iphoneX:text-left">- 使用 Angular.js、TypeScript 提供企業用戶交易</p>
                 <p class="text-base leading-relaxed iphoneX:text-left">- 使用 Angular 套件 html2canvas 將PDF進行切版並預覽</p>
                 <p class="text-base leading-relaxed iphoneX:text-left">- 使用 chart.js 製作匯率趨勢圖並客製化漸層樣式</p>
-                <p class="text-base leading-relaxed iphoneX:text-left">- IOS、Andriod 包版</p>
-                <p class="text-base leading-relaxed iphoneX:text-left">- 製作Angular元件作為共用</p>
+                <p class="text-base leading-relaxed iphoneX:text-left">- 有使用 IOS、Andriod 包版經驗</p>
+                <p class="text-base leading-relaxed iphoneX:text-left">- 製作 Angular 元件作為共用</p>
               </div>
             </div>
           </div>
@@ -59,12 +59,11 @@
         </div>
       </section>
     </div>
-    <div class="flex flex-col items-start mt-8 sm:w-2/5 sm:mt-0 iphoneX:mt-0">
+    <div class="flex flex-col items-start mt-8 sm:w-2/5 sm:mt-0 iphoneX:mt-0 mb-[4%]">
       <h1 class="mb-4 text-3xl leading-none lg:text-4xl  ml-[0.5rem] mt-[22%] iphoneX:mt-[0%]" style="z-index:2">
         <strong class="text-transparent text-8xl bg-clip-text bg-gradient-to-r from-red-300 via-pink-400 via-purple-400 to-blue-400 iphoneX:text-[4rem] ">Experience</strong>
       </h1>
       <span class="w-8 h-8 mr-4 bg-blue-500 rounded-full mt-[-9%] iphoneX:w-[1.5rem] iphoneX:h-[1.5rem] iphoneX:mt-[-11%]"></span>
-
     </div>
   </div>
 </template>

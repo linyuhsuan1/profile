@@ -9,7 +9,7 @@
       </h1>
     </div>
     <div class="container flex flex-col w-full h-screen mx-auto ml-8 swiper sm:h-[100]">
-      <swiper :navigation="true" class="swiper-container bg-blue">
+      <swiper :navigation="true" class="swiper-container bg-blue iphoneX:h-[65vh]">
         <swiper-slide v-for="(item,index) in slideContent" :key="index">
           <div class="w-5/6 p-4 mb-6">
             <div class="overflow-hidden rounded-lg ">
@@ -61,21 +61,24 @@ export default {
           text_1: "- 運用 React.js Hook",
           text_2: "- 使用 Tailwind.css UI Library",
           text_3: "- 使用 useState、useMemo、useCallback 做資料處理",
+          text_4: "- 使用 useContext 做全域狀態管理",
         },
         1: {
           imgUrl: require("../../src/assets/project-vue-1.png"),
           link: "https://github.com/linyuhsuan/vuefinal",
-          title: "Vue.js-La'quisine",
+          title: "Vue.js 電商網站 - La'quisine",
           text_1: "- 使用 VeeValidate 表單驗證",
           text_2: "- 使用 Vue-carousel 輪播特效",
           text_3: "- VueRouter",
           text_4: "- Veux 達到元件同步更新資料",
         },
         2: {
-          imgUrl: require("../../src/assets/project-vue-1.png"),
+          imgUrl: require("../../src/assets/project-vue-2.png"),
           link: "",
-          title: "大學專題-BuyChaser",
-          text_1: "現今盛行的代購直播,讓人人都可以是代購者概念去做發想",
+          title: "大學專題 - BuyChaser",
+          text_1: "針對現今代購直播問題, 解決買賣雙方帶來的問題,",
+          text_2: "並讓代購不只是特定的人, 也結合共享經濟的概念, 讓人人都是代購者",
+          text_3: "- 使用 Bootstrap 開發並使用 RWD 去相容多裝置",
         },
       },
     };
