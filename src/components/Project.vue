@@ -9,7 +9,7 @@
       </h1>
     </div>
     <div class="container flex flex-col w-full h-screen mx-auto ml-8 swiper sm:h-[100]">
-      <swiper :navigation="true" class="swiper-container bg-blue iphoneX:h-[65vh]">
+      <swiper :navigation="true" class="swiper-container bg-blue">
         <swiper-slide v-for="(item,index) in slideContent" :key="index">
           <div class="w-5/6 p-4 mb-6">
             <div class="overflow-hidden rounded-lg ">
