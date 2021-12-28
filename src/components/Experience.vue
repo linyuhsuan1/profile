@@ -30,7 +30,7 @@
               <h2 class="mb-2 text-lg font-medium text-gray-900 title-font">富邦香港企業網銀</h2>
               <h2 class="mb-2 text-lg font-medium text-gray-900 title-font">台北富邦企業網銀</h2>
               <div class="flex flex-wrap">
-                <div class="iphoneX:h-[2.5rem]"><span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#javaScript</span></div>
+                <div class="iphoneX:h-[2.5rem]"><span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#JavaScript</span></div>
                 <div class="iphoneX:h-[2.5rem]"><span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#HTML</span></div>
                 <div class="iphoneX:h-[2.5rem]"><span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#XML</span></div>
                 <div class="iphoneX:h-[2.5rem]"><span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#Bootstrap</span></div>
