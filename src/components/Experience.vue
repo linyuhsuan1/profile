@@ -29,14 +29,14 @@
             <div class="flex-grow mt-6 text-center sm:text-left sm:mt-0">
               <h2 class="mb-2 text-lg font-medium text-gray-900 title-font">富邦香港企業網銀</h2>
               <h2 class="mb-2 text-lg font-medium text-gray-900 title-font">台北富邦企業網銀</h2>
-              <div>
-                <span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#javaScript</span>
-                <span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#HTML</span>
-                <span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#XML</span>
-                <span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#Bootstrap</span>
-                <span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#CSS</span>
+              <div class="flex flex-wrap">
+                <div class="iphoneX:h-[2.5rem]"><span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#javaScript</span></div>
+                <div class="iphoneX:h-[2.5rem]"><span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#HTML</span></div>
+                <div class="iphoneX:h-[2.5rem]"><span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#XML</span></div>
+                <div class="iphoneX:h-[2.5rem]"><span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#Bootstrap</span></div>
+                <div class="iphoneX:h-[2.5rem]"><span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#CSS</span></div>
               </div>
-              <div class="mt-4 iphoneX:px-8">
+              <div class="mt-4 iphoneX:mt-0">
                 <p class="text-base leading-relaxed iphoneX:text-left">- 將前端程式碼進行優化、調整進而符合各瀏覽器</p>
                 <p class="text-base leading-relaxed iphoneX:text-left">- 使用Jquery進行功能製作</p>
                 <p class="text-base leading-relaxed iphoneX:text-left">- 使用 Figma 設計富邦香港轉數快交易設定收款人、線上表單申請畫面</p>
