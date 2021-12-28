@@ -62,8 +62,8 @@
             </a>
             </div>
           </div>
-          <div class="sm:w-3/5">
-            <img src="../../src/assets/profile.jpg" class="bg-center bg-no-repeat bg-auto w-[60%] ml-[18%] iphoneX:ml-[0%] iphoneX:w-auto" style="border-radius:20px"/>
+          <div class="flex justify-center sm:w-3/5">
+            <img src="../../src/assets/profile.jpg" class="bg-center bg-no-repeat bg-auto w-[60%] ml-[18%] iphoneX:ml-[0%] iphoneX:w-[60%]" style="border-radius:20px"/>
           </div>
         </div>
       </div>
