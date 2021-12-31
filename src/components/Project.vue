@@ -17,10 +17,10 @@
             </div>
             <div :id="`title-${index}`">
               <h2 class="mt-5 text-xl font-medium text-gray-900 title-font">{{item.title}}</h2>
-              <p class="mt-2 text-base leading-relaxed text-gray-600">{{item.text_1}}</p>
-              <p class="mt-2 text-base leading-relaxed text-gray-600">{{item.text_2}}</p>
-              <p class="mt-2 text-base leading-relaxed text-gray-600">{{item.text_3}}</p>
-              <p class="mt-2 text-base leading-relaxed text-gray-600">{{item.text_4}}</p>
+              <p class="mt-2 text-base leading-relaxed text-left text-gray-600">{{item.text_1}}</p>
+              <p class="mt-2 text-base leading-relaxed text-left text-gray-600">{{item.text_2}}</p>
+              <p class="mt-2 text-base leading-relaxed text-left text-gray-600">{{item.text_3}}</p>
+              <p class="mt-2 text-base leading-relaxed text-left text-gray-600">{{item.text_4}}</p>
               <a :href="item.link" target="_blank" class="inline-flex items-center mt-3 text-indigo-500">Github
                 <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -76,9 +76,8 @@ export default {
           imgUrl: require("../../src/assets/project-vue-2.png"),
           link: "",
           title: "大學專題 - BuyChaser",
-          text_1: "針對現今代購直播問題, 解決買賣雙方帶來的問題,",
-          text_2: "並讓代購不只是特定的人, 也結合共享經濟的概念, 讓人人都是代購者",
-          text_3: "- 使用 Bootstrap 開發並使用 RWD 去相容多裝置",
+          text_1: "針對現今代購直播問題, 解決買賣雙方帶來的問題,並讓代購不只是特定的人, 也結合共享經濟的概念, 讓人人都是代購者",
+          text_2: "- 使用 Bootstrap 開發並使用 RWD 去相容多裝置",
         },
       },
     };

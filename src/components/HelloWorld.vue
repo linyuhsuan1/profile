@@ -12,7 +12,7 @@
           <div class="mr-4 md:mr-8">
             <a href="#" rel="home">
               <div class="flex items-center text-2xl font-black text-black">
-                <span class="w-6 h-6 mr-4 bg-blue-500 rounded-full"></span>Profile
+                <span class="w-6 h-6 mr-4 bg-blue-500 rounded-full cursor-default"></span>Profile
               </div>
             </a>
           </div>
@@ -25,13 +25,13 @@
           </div>
           <div v-bind:class="{ hidden: !showMenu, flex: showMenu }" class="w-full md:w-auto md:flex-grow md:flex md:items-center">
             <ul class="flex flex-col pt-4 mt-4 -mx-4 text-lg md:flex-row md:items-center md:mx-0 md:ml-auto md:mt-0 md:pt-0 md:border-0">
-              <li class="block px-4 py-1 text-gray-600 md:p-2 lg:px-4 hover:text-blue-500" href="#" v-scroll-to="'#skill'">
+              <li class="block px-4 py-1 text-gray-600 cursor-default md:p-2 lg:px-4 hover:text-blue-500" href="#" v-scroll-to="'#skill'" >
                 Skill
               </li>
-              <li class="block px-4 py-1 text-gray-600 md:p-2 lg:px-4 hover:text-blue-500" href="#" v-scroll-to="'#Project'">
+              <li class="block px-4 py-1 text-gray-600 cursor-default md:p-2 lg:px-4 hover:text-blue-500" href="#" v-scroll-to="'#Project'">
                 Project
               </li>
-              <li class="block px-4 py-1 text-gray-600 md:p-2 lg:px-4 hover:text-blue-500" href="#" v-scroll-to="'#Experience'">
+              <li class="block px-4 py-1 text-gray-600 cursor-default md:p-2 lg:px-4 hover:text-blue-500" href="#" v-scroll-to="'#Experience'">
                 Experience
               </li>
             </ul>
