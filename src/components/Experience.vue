@@ -63,7 +63,7 @@
       <h1 class="mb-4 text-3xl leading-none lg:text-4xl  ml-[0.5rem] mt-[22%] iphoneX:mt-[0%]" style="z-index:2">
         <strong class="text-transparent text-8xl bg-clip-text bg-gradient-to-r from-red-300 via-pink-400 via-purple-400 to-blue-400 iphoneX:text-[4rem] ">Experience</strong>
       </h1>
-      <span class="w-8 h-8 mr-4 bg-blue-500 rounded-full mt-[-9%] iphoneX:w-[1.5rem] iphoneX:h-[1.5rem] iphoneX:mt-[-11%]"></span>
+      <span class="w-8 h-8 mr-4 bg-blue-500 rounded-full mt-[-9%]   iphoneX:w-[1.5rem] iphoneX:h-[1.5rem] iphoneX:mt-[-11%]"></span>
     </div>
   </div>
 </template>
