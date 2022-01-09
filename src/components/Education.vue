@@ -16,7 +16,7 @@
           <div class="flex-grow pl-6 text-center">
             <span class="inline-flex items-center justify-center text-[24px] w-64 h-12 mb-4 text-[#0369a1] bg-[#eff6ff] rounded-md">Web/Layout</span>
             <p class="text-base leading-relaxed text-left text-gray-600">- 熟悉 Boostrap, Tailwind 等 UI Library, 並能打造 RWD 網站</p>
-            <p class="text-base leading-relaxed text-left text-gray-600 ">- 有使用 Figma 做UI畫面經驗</p>
+            <p class="text-base leading-relaxed text-left text-gray-600">- 使用 Figma 做UI畫面經驗</p>
           </div>
         </div>
       </div>
@@ -24,11 +24,11 @@
         <div class="flex items-start h-full">
           <div class="flex-grow pl-6 text-center">
             <span class="inline-flex items-center justify-center text-[24px] w-64 h-12 mb-4 text-[#0369a1] bg-[#eff6ff] rounded-md">React/Anglar/Vue</span>
-            <p class="text-base leading-relaxed text-left text-gray-600">- 有使用 ES6、TypeScript 開發經驗</p>
+            <p class="text-base leading-relaxed text-left text-gray-600">- 有 ES6、TypeScript 開發經驗</p>
             <p class="text-base leading-relaxed text-left text-gray-600">- 有 Angular 一年內開發經驗</p>
             <p class="text-base leading-relaxed text-left text-gray-600">- 了解 React Hook 特性, 避免不必要的畫面渲染</p>
             <p class="text-base leading-relaxed text-left text-gray-600">- 會使用 React Class Component</p>
-            <p class="text-base leading-relaxed text-left text-gray-600">- 會使用 Vue prop / $emit / eventBus 組建溝通</p>
+            <p class="text-base leading-relaxed text-left text-gray-600">- 會使用 Vue 基礎語法、生命週期</p>
           </div>
         </div>
       </div>

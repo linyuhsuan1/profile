@@ -74,7 +74,7 @@ export default {
         },
         2: {
           imgUrl: require("../../src/assets/project-vue-2.png"),
-          link: "",
+          link: "https://github.com/linyuhsuan/BuyChaser",
           title: "大學專題 - BuyChaser",
           text_1: "針對現今代購直播問題, 解決買賣雙方帶來的問題,並讓代購不只是特定的人, 也結合共享經濟的概念, 讓人人都是代購者",
           text_2: "- 使用 Bootstrap、 JavaScript、 RWD 技術",
