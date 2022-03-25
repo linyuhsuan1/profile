@@ -30,7 +30,7 @@
               <h2 class="mb-2 text-lg font-medium text-gray-900 title-font">富邦香港企業網銀</h2>
               <h2 class="mb-2 text-lg font-medium text-gray-900 title-font">台北富邦企業網銀</h2>
               <div class="flex flex-wrap iphoneX:justify-center">
-                <div class="iphoneX:h-[2.5rem] lg:mb-[4%]"><span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#JavaScript</span></div>
+                <div class="iphoneX:h-[2.5rem]"><span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#JavaScript</span></div>
                 <div class="iphoneX:h-[2.5rem]"><span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#HTML</span></div>
                 <div class="iphoneX:h-[2.5rem]"><span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#XML</span></div>
                 <div class="iphoneX:h-[2.5rem]"><span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#Bootstrap</span></div>
@@ -61,9 +61,9 @@
     </div>
     <div class="flex flex-col items-start mt-8 sm:w-2/5 sm:mt-0 iphoneX:mt-0 mb-[4%]">
       <h1 class="mb-4 text-3xl leading-none lg:text-4xl  ml-[0.5rem] mt-[22%] iphoneX:mt-[0%]" style="z-index:2">
-        <strong class="text-transparent text-8xl bg-clip-text bg-gradient-to-r from-red-300 via-pink-400 via-purple-400 to-blue-400 iphoneX:text-[4rem] lg:text-[4.5rem]">Experience</strong>
+        <strong class="text-transparent text-8xl bg-clip-text bg-gradient-to-r from-red-300 via-pink-400 via-purple-400 to-blue-400 iphoneX:text-[4rem]">Experience</strong>
       </h1>
-      <span class="w-8 h-8 mr-4 bg-blue-500 rounded-full mt-[-9%]   iphoneX:w-[1.5rem] iphoneX:h-[1.5rem] iphoneX:mt-[-11%] lg:mt-[-11%] lg:ml-[-2%]"></span>
+      <span class="w-8 h-8 mr-4 bg-blue-500 rounded-full mt-[-9%]   iphoneX:w-[1.5rem] iphoneX:h-[1.5rem] iphoneX:mt-[-11%]"></span>
     </div>
   </div>
 </template>
