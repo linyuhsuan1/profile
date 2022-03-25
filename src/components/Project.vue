@@ -60,7 +60,7 @@ export default {
           title: "React.js",
           text_1: "- 運用 React.js Hook",
           text_2: "- 使用 Tailwind.css UI Library",
-          text_3: "- 使用 useState、useMemo、useCallback 做資料處理",
+          text_3: "- 使用 useMemo、useCallback 避免不要的資料渲染",
           text_4: "- 使用 useContext 做全域狀態管理",
         },
         1: {
@@ -76,9 +76,10 @@ export default {
           imgUrl: require("../../src/assets/project-vue-2.png"),
           link: "https://github.com/linyuhsuan/BuyChaser",
           title: "大學專題 - BuyChaser",
-          text_1: "針對現今代購直播問題, 解決買賣雙方帶來的問題,並讓代購不只是特定的人, 也結合共享經濟的概念, 讓人人都是代購者",
+          text_1:
+            "針對現今代購直播問題, 解決買賣雙方帶來的問題,並讓代購不只是特定的人, 也結合共享經濟的概念, 讓人人都是代購者",
           text_2: "- 使用 Bootstrap、 JavaScript、 RWD 技術",
-          text_3: "- 獲得經濟部搶鮮大賽第一名、全國大專資訊比賽產學合作組佳作"
+          text_3: "- 獲得經濟部搶鮮大賽第一名、全國大專資訊比賽產學合作組佳作",
         },
       },
     };

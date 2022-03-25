@@ -29,7 +29,7 @@
                   <p class="text-base leading-relaxed text-left text-gray-600">- 有 ES6 開發經驗</p>
                   <p class="text-base leading-relaxed text-left text-gray-600">- 有 Angular 一年內開發經驗</p>
                   <p class="text-base leading-relaxed text-left text-gray-600">- 了解 React Hook 特性, 避免不必要的畫面渲染</p>
-                  <p class="text-base leading-relaxed text-left text-gray-600">- 會使用 React Class Component</p>
+                  <p class="text-base leading-relaxed text-left text-gray-600">- 會使用 React Function Component</p>
                   <p class="text-base leading-relaxed text-left text-gray-600">- 會使用 Vue 基礎語法、生命週期</p>
                 </div>
               </div>
@@ -38,7 +38,7 @@
               <div class="flex items-start h-full">
                 <div class="flex-grow pl-6 text-center">
                   <span class="inline-flex items-center justify-center text-[24px] w-64 h-12 mb-4 text-[#0369a1] bg-[#eff6ff] rounded-md">Git</span>
-                  <p class="text-base leading-relaxed text-left text-gray-600">- 熟悉 Sourcetree 版本控制介面, 與同事協作使用經驗</p>
+                  <p class="text-base leading-relaxed text-left text-gray-600">- 了解 Sourcetree 版本控制介面, 與同事協作使用經驗</p>
                   <p class="text-base leading-relaxed text-left text-gray-600 ">- 了解 Git Flow 工作流程</p>
                 </div>
               </div>
