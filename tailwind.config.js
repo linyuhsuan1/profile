@@ -11,7 +11,7 @@ module.exports = {
       lg: '1024px',
       xl: '1280px',
       iphoneX: { 'max': '500px' },
-      ipad: { 'min': '768px', 'max': '1020px' }
+      ipad: { 'max': '1024px' }
     },
 
     extend: {},
