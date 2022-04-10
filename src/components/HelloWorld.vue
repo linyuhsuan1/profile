@@ -46,7 +46,7 @@
         <div class="container flex flex-col-reverse items-center px-6 mx-auto text-center sm:px-12 sm:flex-row">
           <div class="flex flex-col items-center mt-8 sm:w-2/5 sm:mt-0">
             <h1 class="mb-4 text-4xl text-[#fb923c]">Shelly Lin - 林俞萱</h1>
-            <div class="relative grid gap-8 bg-white lg:grid-cols-2 lg:w-[43vw] lg:ml-[30%] mt-[4%]">
+            <div class="relative grid gap-8 bg-white lg:grid-cols-2">
               <div class="flex items-center p-2 -m-3 transition duration-150 ease-in-out rounded-lg hover:bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50">
                 <div class="flex items-center justify-center flex-shrink-0 w-10 h-10 text-white sm:h-12 sm:w-12 bg-[#FFEDD5] rounded-[8px]">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="30" height="30" fill="#FDBA74">
