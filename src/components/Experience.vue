@@ -11,7 +11,7 @@
               <img src="../../src/assets/CTBC.jpeg" class="rounded-full" />
             </div>
             <div class="flex-grow mt-6 text-center sm:text-left sm:mt-0">
-              <h2 class="mb-2 text-lg font-medium text-gray-900 title-font">中國信託行動企業家-APP</h2>
+              <h2 class="mb-2 text-lg font-medium text-gray-900 title-font">中國信託</h2>
               <span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#Angular.js</span>
               <span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#HTML</span>
               <span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#CSS</span>
@@ -27,8 +27,8 @@
           </div>
           <div class="flex flex-col items-center pb-10 mx-auto mb-10 border-b border-gray-200 sm:flex-row">
             <div class="flex-grow mt-6 text-center sm:text-left sm:mt-0">
-              <h2 class="mb-2 text-lg font-medium text-gray-900 title-font">富邦香港企業網銀</h2>
-              <h2 class="mb-2 text-lg font-medium text-gray-900 title-font">台北富邦企業網銀</h2>
+              <h2 class="mb-2 text-lg font-medium text-gray-900 title-font">富邦香港</h2>
+              <h2 class="mb-2 text-lg font-medium text-gray-900 title-font">台北富邦</h2>
               <div class="flex flex-wrap iphoneX:justify-center">
                 <div class="iphoneX:h-[2.5rem]"><span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#JavaScript</span></div>
                 <div class="iphoneX:h-[2.5rem]"><span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#HTML</span></div>
@@ -51,7 +51,7 @@
               <img src="../../src/assets/SCSB.png" class="rounded-full" />
             </div>
             <div class="flex-grow mt-6 text-center sm:text-left sm:mt-0">
-              <h2 class="mb-2 text-lg font-medium text-gray-900 title-font">上海銀行後台管理系統</h2>
+              <h2 class="mb-2 text-lg font-medium text-gray-900 title-font">上海銀行</h2>
               <p class="text-base leading-relaxed">- 在此專案獨立負責前端工作，並與另一位後端夥伴一同開發</p>
               <p class="text-base leading-relaxed">- 開發後台管理系統包含報表下載、人員管理、查詢、新增與修改</p>
             </div>
