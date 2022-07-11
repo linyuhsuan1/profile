@@ -4,7 +4,7 @@
     <div class="container flex flex-col-reverse pr-4 mx-auto ml-4 iphoneX:mt-[4%]">
       <section class="text-gray-600 body-font iphoneX:mt-[2%]">
         <p class="text-xl font-bold leading-relaxed text-center">網際威信股份有限公司 前端工程師</p>
-        <p class="italic font-light leading-relaxed text-center">2020/08~現今</p>
+        <p class="italic font-light leading-relaxed text-center">2020/08~2022/06</p>
         <div class="px-5 py-16 mx-auto " style="margin-top:-4%">
           <div class="flex flex-col items-center pb-10 mx-auto mb-10 border-b border-gray-200 sm:flex-row">
             <div class="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 sm:w-32 sm:h-32 sm:mr-10">
@@ -32,7 +32,7 @@
               <div class="flex flex-wrap iphoneX:justify-center">
                 <div class="iphoneX:h-[2.5rem]"><span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#JavaScript</span></div>
                 <div class="iphoneX:h-[2.5rem]"><span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#HTML</span></div>
-                <div class="iphoneX:h-[2.5rem]"><span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#XML</span></div>
+                <div class="iphoneX:h-[2.5rem]"><span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#XSL</span></div>
                 <div class="iphoneX:h-[2.5rem]"><span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#Bootstrap</span></div>
                 <div class="iphoneX:h-[2.5rem]"><span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#CSS</span></div>
               </div>
