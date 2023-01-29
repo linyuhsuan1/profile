@@ -125,7 +125,7 @@
             </div> -->
           </div>
           <div class="flex justify-center sm:w-3/5 mt-[4%]">
-            <img src="../../src/assets/profile.jpeg" class="bg-center bg-no-repeat bg-auto w-[60%] ml-[18%] iphoneX:ml-[0%] iphoneX:w-[60%]" style="border-radius:20px" />
+            <img src="../../src/assets/profile_web.webp" class="bg-center bg-no-repeat bg-auto w-[60%] ml-[18%] iphoneX:ml-[0%] iphoneX:w-[60%]" style="border-radius:20px" />
           </div>
         </div>
       </div>
