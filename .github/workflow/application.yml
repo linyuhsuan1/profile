@@ -6,7 +6,7 @@ on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches:
-      - master
+      - main
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -30,7 +30,7 @@ jobs:
           
       # Runs a single command using the runners shell
       - name: Deploy
-        uses: linyuhsuan1/profile@master
+        uses: linyuhsuan1/profile@main
         with:
           ACCESS_TOKEN: ${{ secrets.PROFILE_TOKEM }} # Settings > Secret 建立的 ACCESS_TOKEN，推同個 repo 的話可以不需要
           BRANCH: gh-pages # deploy 到 gh-pages 這個分支
