@@ -1,5 +1,5 @@
 # This is a basic workflow to help you get started with Actions
-name: deploy
+name: pages-build-deployment
 
 # Controls when the action will run. 
 on:
@@ -21,16 +21,15 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@main
       
       - name: Install & Build # 執行指令
         run: |
           npm install
           npm run build 
-          
       # Runs a single command using the runners shell
       - name: Deploy
-        uses: linyuhsuan1/profile@main
+        uses: actions/deploy-pages@v1
         with:
           ACCESS_TOKEN: ${{ secrets.PROFILE_TOKEM }} # Settings > Secret 建立的 ACCESS_TOKEN，推同個 repo 的話可以不需要
           BRANCH: gh-pages # deploy 到 gh-pages 這個分支
