@@ -30,6 +30,6 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          ACCESS_TOKEN: ${{ secrets.PROFILE_TOKEM }} # Settings > Secret 建立的 ACCESS_TOKEN，推同個 repo 的話可以不需要
+          ACCESS_TOKEN: ${{ secrets.PROFILE_TOKEN }} # Settings > Secret 建立的 ACCESS_TOKEN，推同個 repo 的話可以不需要
           BRANCH: gh-pages # deploy 到 gh-pages 這個分支
-          FOLDER: ./dist # build 後的資料夾
+          FOLDER: ./public
