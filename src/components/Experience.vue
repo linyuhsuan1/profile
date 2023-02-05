@@ -17,11 +17,11 @@
               <span class="w-4 h-4 p-2 mb-1 mr-4 text-[0.5rem] text-white bg-blue-500 rounded-full">#TypeScript</span>
               <div class="mt-4">
                 <p class="text-base leading-relaxed iphoneX:text-left">- 負責一套系統維運工作，並新增 FIDO 功能提供顧客做身份驗證，擁有跨部門合作經驗</p>
-                <p class="text-base leading-relaxed iphoneX:text-left">- 使用 ALP 進行系統監控，將重大錯誤寄信告警</p>
-                <p class="text-base leading-relaxed iphoneX:text-left">- 使用 Jenkins 做 CI/CD 、Jira 和 GitLab 做版控經驗</p>
-                <p class="text-base leading-relaxed iphoneX:text-left">- 使用 Jest 做 Unit testing，達到 60.4% Test Coverage</p>
+                <p class="text-base leading-relaxed iphoneX:text-left">- 使用 Kibana、Elastic 進行系統監控，將重大錯誤寄信告警</p>
+                <p class="text-base leading-relaxed iphoneX:text-left">- 使用 Jenkins 做 CI/CD</p>
+                <p class="text-base leading-relaxed iphoneX:text-left">- 使用 Jira 和 GitLab 做版控經驗</p>
+                <p class="text-base leading-relaxed iphoneX:text-left">- 使用 Jest 做 Unit testing，達到 60.4% Code Coverage，提高系統穩定</p>
                 <p class="text-base leading-relaxed iphoneX:text-left">- 協助後台系統建置，使用 Vue3 setup、composition API 搭配 design system 進行開發</p>
-                <p class="text-base leading-relaxed iphoneX:text-left">- 基本資料庫(Oracle)操作</p>
               </div>
             </div>
             </div>
