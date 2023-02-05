@@ -26,6 +26,7 @@
     "eslint-plugin-vue": "^7.0.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@2.2.17"
   },
+  "homepage": "https://linyuhsuan1.github.io/profile/",
   "eslintConfig": {
     "root": true,
     "env": {
