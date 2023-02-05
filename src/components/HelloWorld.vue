@@ -114,14 +114,14 @@
         </div>
       </div>
     </main>
+    <div id="Experience">
+      <Experience />
+    </div>
     <div id="skill">
       <Education />
     </div>
     <div id="Project">
       <Project />
-    </div>
-    <div id="Experience">
-      <Experience />
     </div>
   </div>
 </template>
