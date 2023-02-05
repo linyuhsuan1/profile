@@ -37,8 +37,7 @@
               <div class="flex items-start h-full">
                 <div class="flex-grow pl-6 text-center">
                   <span class="inline-flex items-center justify-center text-[24px] w-64 h-12 mb-4 text-[#0369a1] bg-[#eff6ff] rounded-md">Others</span>
-                  <p class="text-base leading-relaxed text-left text-gray-600">- 前後端均有自動化部署 (CD) 經驗</p>
-                  <p class="text-base leading-relaxed text-left text-gray-600 ">- 會使用 ESLint 和 Prettier 確保團隊程式碼品質一致</p>
+                  <p class="text-base leading-relaxed text-left text-gray-600">- 前後端均有自動化部署 (CI/CD) 經驗</p>
                 </div>
               </div>
             </div>

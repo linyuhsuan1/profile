@@ -40,10 +40,6 @@
 import { Swiper, SwiperSlide } from "swiper/vue";
 import SwiperCore, { Navigation } from "swiper";
 SwiperCore.use([Navigation]);
-// import SwiperCore, { Pagination } from "swiper";
-
-// SwiperCore.use([Pagination]);
-
 export default {
   name: "Project",
   components: {
